@@ -1,0 +1,29 @@
+@Notes_HostAddress = http://localhost:5107
+
+### Create a work note
+POST {{Notes_HostAddress}}/notes?category=work
+Content-Type: application/json
+
+{
+  "title": "Sprint Planning",
+  "content": "Review backlog items for next sprint"
+}
+
+### Create a personal note
+POST {{Notes_HostAddress}}/notes?category=personal
+Content-Type: application/json
+
+{
+  "title": "Grocery List",
+  "content": "Milk, eggs, bread"
+}
+
+### Get all notes
+GET {{Notes_HostAddress}}/notes
+Accept: application/json
+
+### Get notes filtered by category
+GET {{Notes_HostAddress}}/notes?category=work
+Accept: application/json
+
+###
