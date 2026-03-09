@@ -13,6 +13,21 @@ This guide walks you through deploying the **Notes API** to Azure App Service an
 | **Postman** | <https://www.postman.com/downloads/> |
 | **An Azure subscription** | [Free account](https://azure.microsoft.com/free/) |
 
+### Install Azure CLI
+
+If you don't have the Azure CLI installed, follow the official instructions for your OS:
+
+- **macOS:**
+  ```bash
+  brew update && brew install azure-cli
+  ```
+- **Windows:**
+  Download and run the installer from [Install Azure CLI on Windows](https://learn.microsoft.com/cli/azure/install-azure-cli-windows)
+- **Linux:**
+  See [Install Azure CLI on Linux](https://learn.microsoft.com/cli/azure/install-azure-cli-linux)
+
+For more details and troubleshooting, see the [official Azure CLI installation guide](https://learn.microsoft.com/cli/azure/install-azure-cli).
+
 ---
 
 ## 1 – Run the API Locally (optional)
